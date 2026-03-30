@@ -1,63 +1,42 @@
 # Build Choices and Hardware
 
-This page captures the hardware path I actually took and why.
+This is how I chose hardware in real life, not in an ideal shopping list.
 
-## Airframe scope
+## My mindset
 
-I stayed focused on the non-VTOL Stallion path. Other platforms came up in discussion, but this build log reflects fixed-wing decisions only.
+I wanted this to be more than a one-time plane. I kept choosing parts I could reuse later on future builds.
 
-## Flight stack decisions
+I was also on a value budget. I was not trying to buy the cheapest possible gear, and I was not trying to buy premium everything. I was trying to buy parts that were worth it.
+
+## Main setup I picked
 
 - Flight controller: SpeedyBee F405 Wing
-- Radio/control link: ELRS with RadioMaster Boxer
-- GPS direction: Matek M10Q-class module with compass
-- Firmware direction: started with INAV, then moved toward ArduPilot Plane
+- Radio link: ELRS with RadioMaster Boxer
+- GPS direction: Matek M10Q class
+- Firmware direction: INAV first, then ArduPilot
+- Power: twin F60-class motors, dual 35A ESCs, 4S baseline
 
-## Why this stack made sense
+## Where I spent the most effort
 
-- Good feature-to-cost ratio
-- Solid ecosystem for fixed-wing support
-- Practical path from stabilized manual flight to GPS-backed capability
+The expensive parts were not the hardest part.
 
-## Where complexity showed up
+The hard part was all the integration detail:
 
-- Output mapping and mode assignment were unforgiving
-- Telemetry expectations grew faster than wiring and configuration maturity
-- GPS and compass integration added setup overhead early
+- output mapping
+- mode setup
+- motor direction and prop side
+- linkage hardware fit
+- wiring that is serviceable after a repair
 
-## Powertrain direction
+Small hardware caused way more stress than I expected. Pushrods, clevises, horns, and fitment decisions mattered more than they looked on paper.
 
-- Twin F60-class motors
-- Twin ESC layout (35A class)
-- Counter-rotating prop pair
-- 4S starting point for early flights
+## Budgeting decisions I kept making
 
-The repeated lesson: twin-motor setups are extremely sensitive to prop side and motor direction mistakes.
-
-## Linkage and small-hardware reality
-
-Most friction came from details that look minor on paper:
-
-- pushrod diameter and fit
-- clevis vs stopper vs Z-bend choices
-- servo horn hole fitment
-- serviceability after assembly
-
-These choices directly affected control smoothness and trust in the airframe.
-
-## Wiring and connector strategy
-
-I biased toward modular, repairable wiring:
-
-- practical connector choices over permanent solder-only chains
-- extension planning for wing and fuselage routing
-- layouts that make maintenance possible after incidents
-
-## Battery and payload philosophy
-
-- Keep first flights lighter and CG-correct before chasing endurance
-- Preserve nose/payload flexibility for future FPV configurations
+- buy parts that stay useful on the next plane
+- avoid overspending before a successful flight
+- avoid false savings that create reliability problems
+- choose modular wiring so repairs are less painful
 
 ## Bottom line
 
-This was not a minimalist throwaway build. The intent was a reusable fixed-wing platform with room to grow into telemetry, GPS features, and more advanced flight workflows.
+My hardware choices were about balance: capable, reusable, and realistic on budget.

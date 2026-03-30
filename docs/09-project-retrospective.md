@@ -1,45 +1,33 @@
 # Project Retrospective
 
-This started as "build a printed plane" and turned into a full systems-integration project.
+This project started as "I want to build a cool printed plane" and turned into "I need to validate a full UAV system."
 
-## What changed during the build
+## What changed for me
 
-At first, the work looked straightforward: print, assemble, configure, fly.
+At first, I thought the hard part would be printing and assembly.
 
-In practice, it became cross-domain integration:
+The real hard part was integration:
 
-- structures and load paths
-- control linkages
+- linkages that move correctly
 - powertrain symmetry
-- firmware logic
-- radio mapping
-- telemetry expectations
-- operational discipline at launch
+- firmware and mode behavior
+- telemetry that I trust
+- disciplined preflight decisions
 
-## Most important takeaways
+## Personal takeaways
 
-1. Printed aircraft are engineering systems.
-Success is decided by integration quality more than by any single component.
+1. Small details can crash the whole system.
 
-2. "Small" details are not small.
-Linkage fit, switch mapping, and prop orientation had the same consequence level as major hardware choices.
+2. Assisted flight helps, but it does not erase setup mistakes.
 
-3. Stabilization is valuable, not magical.
-Assisted modes reduced workload but did not erase setup mistakes.
+3. Confidence comes from validation, not from hoping it is close enough.
 
-4. Documentation is part of safety.
-Writing decisions down made it easier to identify assumptions and avoid repeating errors.
+4. Writing things down improved my decisions.
 
-## Professional value of this project
+## Why this project still matters to me
 
-From a process perspective, this build demonstrates:
-
-- iterative technical decision-making
-- troubleshooting under ambiguity
-- willingness to re-evaluate architecture choices
-- post-failure analysis and recovery planning
-- structured documentation of lessons learned
+Even with a crash, this build gave me a better engineering mindset: slower assumptions, better checks, and clearer thinking under uncertainty.
 
 ## One-line summary
 
-This project marks the shift from assembling an RC airframe to validating a complete fixed-wing UAV system.
+This was my transition from building an RC plane to learning how to validate a real fixed-wing UAV workflow.

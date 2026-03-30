@@ -1,51 +1,36 @@
 # Open Items and Next Steps
 
-This page is the current recovery and completion checklist.
+This is my practical recovery checklist after the crash.
 
-## Mechanical
+## Airframe and mechanics
 
-- Complete a full post-crash structural inspection
-- Check wing roots, boom interfaces, control horns, and motor mounts for hidden damage
-- Verify pushrod geometry and no binding through full travel
+- Inspect all crash points, not just visible damage
+- Check wing roots, boom mounts, control horns, and motor mounts
+- Confirm pushrods move freely through full travel
 - Re-center servos after repairs
 
-## Balance and layout
+## Balance and propulsion
 
-- Re-check CG with the actual intended flight battery
-- Confirm battery retention under launch loads
-- Re-validate component placement against CG target
-
-## Powertrain
-
-- Confirm motor order and direction
-- Confirm CW/CCW prop placement and orientation
-- Replace any questionable propellers
+- Re-check CG with actual flight battery and payload
+- Verify battery retention is solid for hand launch
+- Verify motor direction, order, and prop orientation
+- Replace any prop I do not fully trust
 
 ## Firmware and radio
 
-- Re-validate channel mapping and output assignment from first principles
-- Verify the primary flight mode is actually the one engaged at launch
-- Re-check arming and failsafe behavior with deliberate tests
+- Re-do channel and output validation from scratch
+- Confirm active flight mode at the aircraft before launch
+- Re-test arming and failsafe behavior deliberately
 
 ## Telemetry and GPS
 
-- Restore reliable basic telemetry first (voltage + mode)
-- Complete GPS/compass integration only after stable baseline flight
-- Delay dependence on RTL/autonomy until GPS health is proven
+- Get basic telemetry solid first (voltage + mode)
+- Add GPS only after baseline flight behavior is stable
+- Do not rely on RTL/autonomy until GPS health is proven
 
-## Flight strategy for next attempt
+## Next flight plan
 
-- Fly one simple mission: prove fundamentals
+- Keep the mission simple: prove fundamentals only
 - Use one primary assisted mode
 - Avoid feature testing during validation flights
-- Log observations immediately after each sortie
-
-## Documentation follow-through
-
-Add these once finalized:
-
-- exact parts list
-- final wiring/pinout map
-- final radio and mode map
-- final firmware snapshot
-- post-repair flight notes
+- Write down what happened after each sortie

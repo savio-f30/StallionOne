@@ -1,52 +1,36 @@
 # Flight Prep and First Flights
 
-This page documents how first-flight preparation evolved and where execution broke down.
+This is where the project felt the most real.
 
-## Preflight priorities
+## My headspace before first flight
 
-The same checks kept proving critical:
+I wanted to fly, but I was uneasy.
 
-- CG
-- control-surface direction
-- motor direction and prop side
-- arming behavior
-- confirmed active flight mode
+I had never flown this kind of aircraft, and I knew unresolved setup details could end the flight instantly.
 
-## Setup friction that mattered
+## What I was trying to verify
 
-Early stress points were not unusual, but they were high impact:
+- CG with real flight battery
+- correct control direction on every surface
+- correct motor direction and prop side
+- mode switch behavior at the aircraft, not just in software
+- clear arming behavior
 
-- interpreting V-tail behavior correctly
-- verifying stick-to-surface responses
-- confirming mode switching from transmitter to FC
-- aligning bench behavior with expected in-flight behavior
+## Why launch was high risk
 
-## Takeoff risk profile
+Hand launch leaves almost no time to recover from wrong assumptions.
 
-Hand launch gives almost no time to diagnose bad assumptions. A stabilized mode helps only when it is confirmed and active.
+On a twin-tractor build, wrong control direction or thrust asymmetry can go bad immediately.
 
-In a twin-tractor aircraft, wrong thrust setup or control direction can produce immediate departure on launch.
+## The plan I tried to follow
 
-## Intended first-flight style
+- keep the flight slow and simple
+- use assisted mode
+- have spotters present
+- avoid aggressive inputs
 
-The plan was conservative:
+## What happened
 
-- controlled altitude and speed
-- spotters present
-- no aggressive maneuvering
+The plane crashed on takeoff.
 
-That mindset was correct, but conservative intent cannot compensate for unresolved setup errors.
-
-## Bench checklist that should gate launch
-
-Before launch:
-
-- CG verified with the actual flight battery
-- all control directions verified physically
-- motor order/direction and prop orientation verified physically
-- mode switch behavior verified physically
-- arming and failsafe behavior understood
-
-## Reality outcome
-
-The aircraft crashed on takeoff. That outcome reframed the project from "almost ready" to "needs full-system revalidation."
+That changed my approach from "almost ready" to "re-validate everything from scratch."

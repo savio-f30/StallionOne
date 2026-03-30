@@ -1,45 +1,31 @@
 # Crash Notes and Lessons Learned
 
-This page is direct on purpose.
+I crashed on takeoff.
 
-## Event
+That is the most important fact in this project.
 
-The aircraft crashed during takeoff.
+## My honest read of likely causes
 
-Given the setup history, the issue was likely not a single isolated mistake, but a combination of unresolved items.
+I do not think it was one single mistake. It was probably stacked uncertainty:
 
-## Most likely cause categories
+- control direction or mix issue
+- wrong active flight mode at launch
+- prop or motor asymmetry
+- CG not right in the exact flight config
+- launching while still carrying unresolved assumptions
 
-1. Control logic error
-- reversed or mixed surface behavior
-- mismatch between expected and actual stick response
+## Biggest lesson
 
-2. Flight-mode mismatch
-- aircraft launched in a different mode than intended
+Small unknowns combine fast on a fixed-wing launch.
 
-3. Propulsion asymmetry
-- wrong prop side, wrong motor direction, or thrust imbalance
+What feels like "close enough" on the bench is not always close enough in the air.
 
-4. CG/weight problem
-- launch behavior degraded by incorrect balance with actual flight battery
+## What I do differently now
 
-5. Launch executed with unresolved uncertainty
-- several "probably fine" assumptions compounded under time pressure
-
-## Core lesson
-
-Small uncertainties stack. In fixed-wing launch conditions, stacked uncertainty becomes failure quickly.
-
-## Post-crash recovery protocol
-
-1. Treat throw technique as only one variable, not the default cause.
-2. Re-verify every control direction by hand.
-3. Re-verify motor direction and prop orientation by hand.
-4. Re-check CG with the intended flight configuration.
-5. Confirm actual mode switching at the aircraft, not only in software.
-6. Inspect linkages, horns, centering, mounts, and structural joints.
-7. Use a written checklist. Do not rely on memory.
-
-## Why this matters
-
-This section turns the crash from a vague setback into a concrete validation framework for the next flight attempt.
+1. Stop blaming the throw first.
+2. Re-check control direction physically.
+3. Re-check motor direction and prop orientation physically.
+4. Re-check CG with the real battery and payload.
+5. Confirm active mode at the aircraft.
+6. Inspect all linkages and structural joints.
+7. Use a written checklist every time.

@@ -1,52 +1,32 @@
 # Firmware and Flight Modes
 
-This page explains the firmware path and mode strategy behind the build.
+I went back and forth on firmware more than I expected.
 
-## Firmware path
+## How the choice evolved
 
-I started in INAV for quicker access to stabilization and assisted flight, then leaned toward ArduPilot Plane as requirements grew.
+I started on INAV because it felt easier to get moving.
 
-The shift was driven by interest in:
+Over time I kept leaning toward ArduPilot Plane because it matched what I actually wanted long-term: stronger fixed-wing workflow, better mission tools, and more room to grow.
 
-- stronger fixed-wing autonomy tooling
-- mission workflows
-- more robust long-term GPS integration
+## What I was really trying to get from flight modes
 
-## Practical mode strategy
+I did not want full autonomy on day one. I wanted assistance.
 
-### Primary early-flight mode: FBWA
-Why it fit:
-- stabilized manual control
-- lower pilot workload than full manual
-- safer first fixed-wing learning curve
+Main idea:
 
-### Follow-on modes: FBWB / Cruise
-Used as progression modes once trim and basic handling are proven.
+- fly mostly in FBWA
+- reduce pilot workload
+- keep recovery options available
+- build confidence without going fully manual
 
-### RTL and autonomous modes
-Useful, but not a substitute for setup quality. They only become trustworthy after control, GPS, and failsafe behavior are validated.
+## What kept tripping me up
 
-## Hard lesson from configuration work
+- mode switches not doing what I thought
+- channel and output mapping confusion
+- arming behavior not matching expectations
 
-Software setup friction clustered around the same points:
+The hardest part was not picking a mode name. It was proving that the aircraft was actually in that mode and behaving correctly.
 
-- channel mapping versus expected behavior
-- output assignment and mixer logic
-- arming behavior
-- switch-state interpretation
+## Bottom line
 
-## What this build reinforced
-
-A flight controller can stabilize a correctly configured aircraft. It cannot rescue a chain of unresolved fundamentals.
-
-Required fundamentals remained:
-
-- correct CG
-- correct surface direction
-- correct motor/prop orientation
-- clear, verified mode mapping
-- disciplined launch technique
-
-## Summary
-
-Assisted modes were the right direction for this project. The key was learning that assistance only works when the full setup chain is verified end to end.
+Assisted flight was the right direction for me, but it only helps when the setup chain is verified all the way through.

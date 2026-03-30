@@ -1,43 +1,29 @@
 # Printing, Materials, and Structure
 
-This page summarizes how printing choices shaped the aircraft.
+This part of the build was one long tradeoff between weight and confidence.
 
-## Print environment
+## What I used
 
 - Printer: Bambu Lab P1S
-- Priority: functional parts and predictable results, not cosmetic perfection
+- Main airframe parts: LW-PLA
+- High-stress parts: PETG
 
-## Material strategy
+## What I learned quickly
 
-### Main airframe
-- LW-PLA for lightweight aerodynamic shell sections
+I kept wanting parts to feel stiffer in my hand. The problem is that chasing stiffness everywhere adds weight fast, and this airframe does not like unnecessary weight.
 
-### Structural/high-load parts
-- PETG or other harder materials for mounts, roots, locks, and inserts
+The better approach was:
 
-That split gave the best balance between flight efficiency and durability.
+- keep shell parts light
+- reinforce real load points
+- keep joints, hinges, and linkages clean
 
-## The recurring tradeoff
+## Mistakes I tried to avoid
 
-The core challenge was always the same:
+- adding walls and infill everywhere just to feel better on the bench
+- treating cosmetic quality as more important than structural layout
+- using the same print strategy for shell and structural parts
 
-- lighter parts improve flight performance
-- stiffer parts feel safer during handling
-- over-reinforcing everything can undermine the design intent
+## Bottom line
 
-## What worked in practice
-
-1. Keep shell parts light and let carbon/spars/joints carry structure.
-2. Spend strength budget on truly loaded parts, especially motor and root interfaces.
-3. Prioritize clean hinges, linkage freedom, and bond quality over brute-force infill.
-4. Avoid "bench feel" bias: a part can feel soft in hand and still be valid in flight.
-
-## Mistakes this page helps avoid
-
-- adding weight everywhere to chase rigidity
-- treating structural and shell parts as if they need the same print profile
-- over-optimizing print cosmetics while ignoring load paths
-
-## Practical takeaway
-
-For this aircraft, the best results came from disciplined material separation: light where it should be light, strong where it must be strong.
+The best results came when I respected the split: light where possible, strong where required.
