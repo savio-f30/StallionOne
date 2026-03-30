@@ -1,14 +1,33 @@
-# Printing, Materials, and Structure
+# Gallery
 
-This section was basically me learning that "feels sturdy in your hand" and "flies well" are not the same thing.
+This folder is where I keep all build media: photos, short clips, and visual checkpoints from the project.
 
-I printed on a Bambu P1S, mostly LW-PLA for the airframe and PETG for higher-stress parts. That material split looked simple, but sticking to it took discipline because I kept wanting to overbuild parts just for peace of mind.
+## Folder layout
 
-Every time I pushed too far toward stiffness, weight crept up. And with this airframe, extra weight shows up fast in the wrong places.
+- gallery/images: still images (assembly, wiring, damage checks, repairs)
+- gallery/videos: short clips (control checks, arming behavior, taxi/launch moments)
+- gallery/media-index.md: one place to describe each file and where it is referenced
 
-The practical rule that worked best was boring but effective: keep shell parts light, put strength only where loads are real, and spend extra attention on joints and linkage quality instead of trying to brute-force strength with infill.
+## How I use it in markdown files
 
-This was one of the places where I learned to trust structure and layout more than bench feel.
+From README (repo root):
+
+![Wing root dry fit](gallery/images/example-wing-fit.jpg)
+
+[Watch control check](gallery/videos/example-control-check.mp4)
+
+From files in docs:
+
+![Wing root dry fit](../gallery/images/example-wing-fit.jpg)
+
+[Watch control check](../gallery/videos/example-control-check.mp4)
+
+## Recommended media habits
+
+- Add only media that supports a decision, problem, or lesson.
+- Add a one-line description in media-index.md for every file.
+- Prefer short clips over long raw recordings.
+- Keep original filenames stable once linked.
 
 ## Directory
 

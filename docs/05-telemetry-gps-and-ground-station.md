@@ -1,43 +1,31 @@
 # Telemetry, GPS, and Ground Station
 
-This was one of the most emotional parts of the build, not just a technical one.
+This part hit me harder than I expected.
 
-## What I wanted first
+I went in thinking telemetry was mostly a convenience feature. It turned out to be confidence infrastructure. Seeing battery and mode feedback clearly made the aircraft feel understandable, not mysterious.
 
-I was not trying to build a full ground station on day one.
+The GPS issue was more than a wiring/config annoyance. It became a repeated mental loop: can I safely fly without it, should I wait, am I making excuses, am I being too cautious. That uncertainty sat in the background of almost every flight-readiness decision.
 
-I mainly wanted:
+Where I landed is pretty simple now:
 
-- battery info I could trust
-- clear flight mode feedback
+- basic stabilized flying can happen without GPS
+- serious return-home/navigation expectations cannot
 
-That alone made the plane feel less like a black box.
+I also had to stop treating other sensors like substitutes. Barometer and IMU matter, but they are not position truth.
 
-## GPS became a confidence question
+The order that would have saved me stress was incremental: get control basics right, then basic telemetry, then GPS, then richer ground station work.
 
-The GPS issue was not only wiring and setup. It started to feel like a readiness test:
+## Directory
 
-- can I fly without GPS?
-- should I wait?
-- is it safe enough to test anyway?
-
-That uncertainty affected my confidence a lot.
-
-## How I think about it now
-
-- For early stabilized flying, GPS is helpful but not mandatory.
-- For RTL and more advanced navigation, GPS is mandatory.
-
-I also had to remind myself that barometer and IMU are useful, but they are not a replacement for true GPS position.
-
-## Practical order that makes more sense
-
-1. Get mechanics and controls right.
-2. Get stable assisted flight working.
-3. Get basic telemetry working reliably.
-4. Add GPS only after that baseline is solid.
-5. Then expand to richer ground station workflows.
-
-## Bottom line
-
-Telemetry was how I tried to earn confidence. The lesson was to add complexity in stages, not all at once.
+- [Project Summary (README)](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/README.md)
+- [Build Choices and Hardware](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/02-build-choices-and-hardware.md)
+- [Printing, Materials, and Structure](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/03-printing-materials-and-structure.md)
+- [Firmware and Flight Modes](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/04-firmware-and-flight-modes.md)
+- [Telemetry, GPS, and Ground Station](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/05-telemetry-gps-and-ground-station.md)
+- [Flight Prep and First Flights](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/06-flight-prep-and-first-flights.md)
+- [Crash Notes and Lessons Learned](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/07-crash-notes-and-lessons-learned.md)
+- [Open Items and Next Steps](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/08-open-items-and-next-steps.md)
+- [Project Retrospective](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/09-project-retrospective.md)
+- [Gallery Home](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/gallery/README.md)
+- [Gallery Media Index](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/gallery/media-index.md)
+- [Official Stallion Page](https://flightory.com/product/stallion/)

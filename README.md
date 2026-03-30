@@ -1,35 +1,32 @@
 # Flightory Stallion (Non-VTOL) Build Log
 
-This repo is the story of my first serious fixed-wing UAV build: a Flightory Stallion (non-VTOL).
+This is my build log for a Flightory Stallion non-VTOL, and honestly it ended up being much more than a normal first-plane project.
 
-I am keeping it simple and honest: what I chose, what frustrated me, where I got nervous, where I crashed, and what I changed after that.
+I started with a pretty simple goal: build something capable, not disposable. I wanted a fixed-wing platform I could keep improving instead of a one-weekend setup that gets tossed after the first problems. That meant I kept thinking ahead about telemetry, assisted flight, GPS, reusable hardware, and a cleaner long-term ecosystem.
 
-## Quick summary
+The hard part was the tension between momentum and readiness. I kept wanting to fly soon, but I also knew some setup areas were still shaky. A lot of this project lives inside that tension: trying to make progress while also trying not to skip the boring checks that keep you out of trouble.
 
-- I did not want a throwaway first plane. I wanted a platform I could grow with.
-- I kept getting pulled between speed ("fly this week") and correctness ("this still is not fully validated").
-- I leaned hard on assisted flight and telemetry because I wanted safety margin, not just cool features.
-- My first takeoff ended in a crash, and that became the turning point of the whole project.
+There was also a confidence side to all of this. I did not chase assisted modes and telemetry because they looked cool. I wanted margin. I wanted fewer unknowns in the air. When GPS became inconsistent, it affected confidence more than I expected. It stopped feeling like a sensor issue and started feeling like a "are we actually ready" issue.
 
-## Manual and official product resources
+My first takeoff ended in a crash. That was the turning point. After that, the whole project became less about "getting it in the air" and more about proving each part of the setup chain before trying again.
 
-The official Stallion page is here:
+If you are reading this as a summary, this repo is basically my transition from assembling a printed aircraft to learning how unforgiving fixed-wing integration can be when details are only mostly correct.
+
+Official Stallion page (manual, files, hardware guidance, product details):
 
 - [Flightory Stallion Product Page](https://flightory.com/product/stallion/)
 
-That page includes the manual, hardware suggestions, files, and product details.
+## Directory
 
-## My build docs (read in order)
-
-1. [Build Choices and Hardware](docs/02-build-choices-and-hardware.md)
-2. [Printing, Materials, and Structure](docs/03-printing-materials-and-structure.md)
-3. [Firmware and Flight Modes](docs/04-firmware-and-flight-modes.md)
-4. [Telemetry, GPS, and Ground Station](docs/05-telemetry-gps-and-ground-station.md)
-5. [Flight Prep and First Flights](docs/06-flight-prep-and-first-flights.md)
-6. [Crash Notes and Lessons Learned](docs/07-crash-notes-and-lessons-learned.md)
-7. [Open Items and Next Steps](docs/08-open-items-and-next-steps.md)
-8. [Project Retrospective](docs/09-project-retrospective.md)
-
-## Important note
-
-Parts of this repo come from active troubleshooting, not final airworthy config. I treat this as a decision log, then verify against official docs and real bench checks before flying.
+- [Project Summary (README)](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/README.md)
+- [Build Choices and Hardware](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/02-build-choices-and-hardware.md)
+- [Printing, Materials, and Structure](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/03-printing-materials-and-structure.md)
+- [Firmware and Flight Modes](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/04-firmware-and-flight-modes.md)
+- [Telemetry, GPS, and Ground Station](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/05-telemetry-gps-and-ground-station.md)
+- [Flight Prep and First Flights](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/06-flight-prep-and-first-flights.md)
+- [Crash Notes and Lessons Learned](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/07-crash-notes-and-lessons-learned.md)
+- [Open Items and Next Steps](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/08-open-items-and-next-steps.md)
+- [Project Retrospective](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/09-project-retrospective.md)
+- [Gallery Home](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/gallery/README.md)
+- [Gallery Media Index](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/gallery/media-index.md)
+- [Official Stallion Page](https://flightory.com/product/stallion/)

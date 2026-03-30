@@ -1,14 +1,24 @@
-# Printing, Materials, and Structure
+# Media Index
 
-This section was basically me learning that "feels sturdy in your hand" and "flies well" are not the same thing.
+Use this file to keep every image/video described in one place.
 
-I printed on a Bambu P1S, mostly LW-PLA for the airframe and PETG for higher-stress parts. That material split looked simple, but sticking to it took discipline because I kept wanting to overbuild parts just for peace of mind.
+## Images
 
-Every time I pushed too far toward stiffness, weight crept up. And with this airframe, extra weight shows up fast in the wrong places.
+| File | What it shows | Why it matters | Linked from |
+|---|---|---|---|
+| gallery/images/example-wing-fit.jpg | Wing root dry fit before glue | Shows alignment and fit checks before permanent assembly | docs/03-printing-materials-and-structure.md |
 
-The practical rule that worked best was boring but effective: keep shell parts light, put strength only where loads are real, and spend extra attention on joints and linkage quality instead of trying to brute-force strength with infill.
+## Videos
 
-This was one of the places where I learned to trust structure and layout more than bench feel.
+| File | What it shows | Why it matters | Linked from |
+|---|---|---|---|
+| gallery/videos/example-control-check.mp4 | Bench control-direction check | Helps confirm correct surface response before launch | docs/06-flight-prep-and-first-flights.md |
+
+## Notes
+
+- Keep filenames lowercase and use dashes.
+- Keep descriptions short and specific.
+- If a file is replaced, update this index and keep the same filename when possible.
 
 ## Directory
 

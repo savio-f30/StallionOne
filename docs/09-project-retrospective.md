@@ -1,33 +1,26 @@
 # Project Retrospective
 
-This project started as "I want to build a cool printed plane" and turned into "I need to validate a full UAV system."
+This project changed what I think "building a plane" means.
 
-## What changed for me
+I started by thinking the challenge would mostly be printing and assembly. It turned out the real challenge was system behavior under uncertainty: controls, thrust, firmware state, telemetry trust, and pilot decision timing.
 
-At first, I thought the hard part would be printing and assembly.
+The biggest personal shift was mindset. Early on, I was trying to get to flight quickly. After the crash, I became much more strict about proof before action.
 
-The real hard part was integration:
+I also learned that small mechanical details and small software assumptions can carry the same risk as major component choices.
 
-- linkages that move correctly
-- powertrain symmetry
-- firmware and mode behavior
-- telemetry that I trust
-- disciplined preflight decisions
+If I had to summarize what this build gave me, it is this: better technical patience.
 
-## Personal takeaways
+## Directory
 
-1. Small details can crash the whole system.
-
-2. Assisted flight helps, but it does not erase setup mistakes.
-
-3. Confidence comes from validation, not from hoping it is close enough.
-
-4. Writing things down improved my decisions.
-
-## Why this project still matters to me
-
-Even with a crash, this build gave me a better engineering mindset: slower assumptions, better checks, and clearer thinking under uncertainty.
-
-## One-line summary
-
-This was my transition from building an RC plane to learning how to validate a real fixed-wing UAV workflow.
+- [Project Summary (README)](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/README.md)
+- [Build Choices and Hardware](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/02-build-choices-and-hardware.md)
+- [Printing, Materials, and Structure](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/03-printing-materials-and-structure.md)
+- [Firmware and Flight Modes](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/04-firmware-and-flight-modes.md)
+- [Telemetry, GPS, and Ground Station](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/05-telemetry-gps-and-ground-station.md)
+- [Flight Prep and First Flights](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/06-flight-prep-and-first-flights.md)
+- [Crash Notes and Lessons Learned](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/07-crash-notes-and-lessons-learned.md)
+- [Open Items and Next Steps](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/08-open-items-and-next-steps.md)
+- [Project Retrospective](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/09-project-retrospective.md)
+- [Gallery Home](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/gallery/README.md)
+- [Gallery Media Index](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/gallery/media-index.md)
+- [Official Stallion Page](https://flightory.com/product/stallion/)

@@ -1,36 +1,30 @@
 # Open Items and Next Steps
 
-This is my practical recovery checklist after the crash.
+This is my working list for getting the aircraft back to a trustworthy state.
 
-## Airframe and mechanics
+I am keeping this practical and boring on purpose.
 
-- Inspect all crash points, not just visible damage
-- Check wing roots, boom mounts, control horns, and motor mounts
-- Confirm pushrods move freely through full travel
-- Re-center servos after repairs
+First, airframe and linkage integrity: inspect crash points, inspect hidden damage zones, verify full-travel linkage movement, and re-center everything that shifted.
 
-## Balance and propulsion
+Then balance and propulsion: CG with real battery/payload, battery retention under launch conditions, and a full motor/prop direction check.
 
-- Re-check CG with actual flight battery and payload
-- Verify battery retention is solid for hand launch
-- Verify motor direction, order, and prop orientation
-- Replace any prop I do not fully trust
+Then firmware/radio validation: outputs, mode behavior at the aircraft, and failsafe behavior under deliberate tests.
 
-## Firmware and radio
+Then telemetry and GPS: stable basic telemetry first, GPS and advanced behavior only after baseline flight is proven again.
 
-- Re-do channel and output validation from scratch
-- Confirm active flight mode at the aircraft before launch
-- Re-test arming and failsafe behavior deliberately
+For the next flight attempt, I want one objective only: verify fundamentals. No feature tourism, no extra experiments.
 
-## Telemetry and GPS
+## Directory
 
-- Get basic telemetry solid first (voltage + mode)
-- Add GPS only after baseline flight behavior is stable
-- Do not rely on RTL/autonomy until GPS health is proven
-
-## Next flight plan
-
-- Keep the mission simple: prove fundamentals only
-- Use one primary assisted mode
-- Avoid feature testing during validation flights
-- Write down what happened after each sortie
+- [Project Summary (README)](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/README.md)
+- [Build Choices and Hardware](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/02-build-choices-and-hardware.md)
+- [Printing, Materials, and Structure](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/03-printing-materials-and-structure.md)
+- [Firmware and Flight Modes](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/04-firmware-and-flight-modes.md)
+- [Telemetry, GPS, and Ground Station](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/05-telemetry-gps-and-ground-station.md)
+- [Flight Prep and First Flights](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/06-flight-prep-and-first-flights.md)
+- [Crash Notes and Lessons Learned](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/07-crash-notes-and-lessons-learned.md)
+- [Open Items and Next Steps](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/08-open-items-and-next-steps.md)
+- [Project Retrospective](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/09-project-retrospective.md)
+- [Gallery Home](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/gallery/README.md)
+- [Gallery Media Index](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/gallery/media-index.md)
+- [Official Stallion Page](https://flightory.com/product/stallion/)

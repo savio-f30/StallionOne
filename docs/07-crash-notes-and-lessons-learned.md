@@ -1,31 +1,28 @@
 # Crash Notes and Lessons Learned
 
-I crashed on takeoff.
+The aircraft crashed on takeoff. That is the line that matters most.
 
-That is the most important fact in this project.
+I do not think this came from one dramatic mistake. It felt more like several unresolved details stacked together at the exact worst moment.
 
-## My honest read of likely causes
+The likely suspects are familiar: control direction/mix, active mode mismatch, thrust asymmetry, CG in real flight configuration, and launch timing while still carrying uncertainty.
 
-I do not think it was one single mistake. It was probably stacked uncertainty:
+The lesson was blunt: in fixed-wing launch conditions, "almost correct" is often incorrect.
 
-- control direction or mix issue
-- wrong active flight mode at launch
-- prop or motor asymmetry
-- CG not right in the exact flight config
-- launching while still carrying unresolved assumptions
+After this, I stopped trying to reason from memory and started using a repeatable checklist. Re-check surfaces by hand, re-check props and motor direction by hand, confirm mode behavior at the aircraft, and treat structure/linkages as suspect until proven clean.
 
-## Biggest lesson
+It was a frustrating moment, but it turned the project into real engineering instead of hopeful assembly.
 
-Small unknowns combine fast on a fixed-wing launch.
+## Directory
 
-What feels like "close enough" on the bench is not always close enough in the air.
-
-## What I do differently now
-
-1. Stop blaming the throw first.
-2. Re-check control direction physically.
-3. Re-check motor direction and prop orientation physically.
-4. Re-check CG with the real battery and payload.
-5. Confirm active mode at the aircraft.
-6. Inspect all linkages and structural joints.
-7. Use a written checklist every time.
+- [Project Summary (README)](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/README.md)
+- [Build Choices and Hardware](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/02-build-choices-and-hardware.md)
+- [Printing, Materials, and Structure](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/03-printing-materials-and-structure.md)
+- [Firmware and Flight Modes](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/04-firmware-and-flight-modes.md)
+- [Telemetry, GPS, and Ground Station](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/05-telemetry-gps-and-ground-station.md)
+- [Flight Prep and First Flights](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/06-flight-prep-and-first-flights.md)
+- [Crash Notes and Lessons Learned](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/07-crash-notes-and-lessons-learned.md)
+- [Open Items and Next Steps](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/08-open-items-and-next-steps.md)
+- [Project Retrospective](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/docs/09-project-retrospective.md)
+- [Gallery Home](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/gallery/README.md)
+- [Gallery Media Index](https://github.com/savio-f30/StallionOne/blob/main/StallionOne/gallery/media-index.md)
+- [Official Stallion Page](https://flightory.com/product/stallion/)
