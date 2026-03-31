@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+scripts/generate-gallery-readme.sh
+
+if ! git diff --quiet -- gallery/README.md; then
+  git add gallery/README.md
+fi

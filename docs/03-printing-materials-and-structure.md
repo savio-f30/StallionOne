@@ -22,5 +22,4 @@ This was one of the places where I learned to trust structure and layout more th
 - [Open Items and Next Steps](https://github.com/savio-f30/StallionOne/blob/main/docs/08-open-items-and-next-steps.md)
 - [Project Retrospective](https://github.com/savio-f30/StallionOne/blob/main/docs/09-project-retrospective.md)
 - [Gallery Home](https://github.com/savio-f30/StallionOne/blob/main/gallery/README.md)
-- [Gallery Media Index](https://github.com/savio-f30/StallionOne/blob/main/gallery/media-index.md)
 - [Official Stallion Page](https://flightory.com/product/stallion/)
