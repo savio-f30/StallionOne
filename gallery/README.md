@@ -2,21 +2,21 @@
 
 ## Images:
 
-<u>Calibration</u>
+## <u>Calibration</u>
 
-![Calibration](images/Calibration.jpeg)
-
----
-
-<u>Programming</u>
-
-![Programming](images/Programming.jpeg)
+<img src="images/Calibration.jpeg" alt="Calibration" width="40%" />
 
 ---
 
-<u>Takeoff</u>
+## <u>Programming</u>
 
-![Takeoff](images/Takeoff.jpeg)
+<img src="images/Programming.jpeg" alt="Programming" width="40%" />
+
+---
+
+## <u>Takeoff</u>
+
+<img src="images/Takeoff.jpeg" alt="Takeoff" width="40%" />
 
 ## Videos:
 

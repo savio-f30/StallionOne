@@ -33,13 +33,13 @@ render_media_list() {
       echo
     fi
 
-    echo "<u>${title}</u>"
+    echo "## <u>${title}</u>"
     echo
 
     if [[ "$media_type" == "image" ]]; then
-      echo "![${title}](${file})"
+      echo "<img src=\"${file}\" alt=\"${title}\" width=\"40%\" />"
     else
-      echo "<video src=\"${file}\" controls preload=\"metadata\" width=\"100%\"></video>"
+      echo "<video src=\"${file}\" controls preload=\"metadata\" width=\"40%\"></video>"
     fi
 
     echo
